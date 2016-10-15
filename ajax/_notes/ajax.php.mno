@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_LiveData_params" value="5" />
+	<infoitem key="UD_LiveData_param0" value="municipios_json=1&amp;id_esta=22" />
+	<infoitem key="UD_LiveData_request_method" value="post" />
+	<infoitem key="UD_LiveData_param1" value="municipios_json=1&amp;id_esta=27" />
+	<infoitem key="UD_LiveData_param2" value="municipios_json=1" />
+	<infoitem key="UD_LiveData_param3" value="estados_json=1" />
+	<infoitem key="UD_LiveData_param4" value="bancos=1" />
+</info>

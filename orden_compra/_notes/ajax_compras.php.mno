@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_LiveData_params" value="3" />
+	<infoitem key="UD_LiveData_param0" value="FACTURAS_COMPRAS=true&amp;opcion=NULL&amp;texto=2" />
+	<infoitem key="UD_LiveData_request_method" value="post" />
+	<infoitem key="UD_LiveData_param1" value="VENTAS=sd" />
+	<infoitem key="UD_LiveData_param2" value="ventas=sd" />
+</info>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="MM_css_include" value="../src/css/catalogo.css,../src/css/style.css" />
+	<infoitem key="MM_css_exclude" value="" />
+	<infoitem key="UD_LiveData_params" value="2" />
+	<infoitem key="UD_LiveData_param0" value="idet_clie=23423423&amp;edit=basico" />
+	<infoitem key="UD_LiveData_param1" value="idet_clie=23423423" />
+</info>

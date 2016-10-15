@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_LiveData_params" value="4" />
+	<infoitem key="UD_LiveData_param0" value="id_prod=1055" />
+	<infoitem key="UD_LiveData_request_method" value="get" />
+	<infoitem key="UD_LiveData_param1" value="id_prod=1223" />
+	<infoitem key="UD_LiveData_param2" value="id_articulo=1223" />
+	<infoitem key="UD_LiveData_param3" value="id=1223" />
+</info>

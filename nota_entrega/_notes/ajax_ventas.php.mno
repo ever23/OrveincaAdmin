@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_LiveData_params" value="4" />
+	<infoitem key="UD_LiveData_param0" value="VENTAS=e" />
+	<infoitem key="UD_LiveData_request_method" value="post" />
+	<infoitem key="UD_LiveData_param1" value="VENTAS=sd&amp;opcion=nomb_clie&amp;like=like&amp;texto=%25e%25" />
+	<infoitem key="UD_LiveData_param2" value="VENTAS=sd" />
+	<infoitem key="UD_LiveData_param3" value="ventas=sd" />
+</info>

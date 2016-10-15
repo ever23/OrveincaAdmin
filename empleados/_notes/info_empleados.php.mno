@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="MM_css_include" value="../src/css/catalogo.css,../src/css/style.css" />
+	<infoitem key="MM_css_exclude" value="" />
+	<infoitem key="UD_LiveData_params" value="3" />
+	<infoitem key="UD_LiveData_param0" value="we=ew" />
+	<infoitem key="UD_LiveData_request_method" value="post" />
+	<infoitem key="UD_LiveData_param1" value="" />
+	<infoitem key="UD_LiveData_param2" value="nom1_vend=1" />
+</info>

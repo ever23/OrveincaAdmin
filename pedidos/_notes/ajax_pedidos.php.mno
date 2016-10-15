@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_LiveData_params" value="5" />
+	<infoitem key="UD_LiveData_param0" value="pedidos=true&amp;texto=7&amp;opcion=nume_pedi&amp;like==" />
+	<infoitem key="UD_LiveData_request_method" value="post" />
+	<infoitem key="UD_LiveData_param1" value="pedidos=true&amp;texto=7&amp;opcion=nume_pedi" />
+	<infoitem key="UD_LiveData_param2" value="pedios=true&amp;texto=7&amp;opcion=nume_pedi" />
+	<infoitem key="UD_LiveData_param3" value="l_precios=true&amp;text=1001&amp;codi_clpr=B-" />
+	<infoitem key="UD_LiveData_param4" value="l_precios=true&amp;text=1001" />
+</info>

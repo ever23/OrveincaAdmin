@@ -1,0 +1,48 @@
+﻿@charset "utf-8";
+
+/* CSS Document */
+
+#boton_aparece_menu
+{
+	height: 30px;
+	line-height: 30px;
+	width: 300px;
+	background-color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #333;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid #d2d2d2;
+	border-radius: 2px;
+	box-shadow: 0 0 4px #d2d2d2;
+}
+
+#Div_menu
+{
+	position: absolute;
+	width: 300px;
+	background-color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333;
+	font-weight: bold;
+	margin-top: 5px;
+	display: none;
+	z-index: 100;
+	border: 1px solid #d2d2d2;
+	border-radius: 2px;
+	box-shadow: 2px 2px 4px #d2d2d2;
+}
+
+.li_menu
+{
+	line-height: 25px;
+	border-bottom: 1px solid #d2d2d2;
+	cursor: pointer;
+	padding-left: 10px;
+}
+
+.li_menu:hover { background-color: #fef9ec;/*color: #FFF;*/
+}

@@ -1,0 +1,524 @@
+@charset "utf-8";
+
+/* CSS Document */
+/*==============================================CATALDGO=============================*/
+.middle_banner { height: 10px; }
+
+.catalogo { margin: 10px; }
+
+.implementos
+{
+	margin: 5px;
+	background: rgba(255,255,255,1);
+	background-size: contain;
+	width: 219px;
+	height: 230px;
+	float: left;
+	display: block;
+	box-shadow: 1px 1px 13px #999;
+	border-radius: 5px;
+}
+
+.implementos:active
+{
+	box-shadow: 1px 1px 4px #999;
+	box-decoration-break: slice;
+}
+
+.pp
+{
+	background: rgba(255,255,255,1) no-repeat;
+	background-size: contain;
+	width: 219px;
+	height: 165px;
+	float: left;
+	display: block;
+}
+
+.print { background-image: url(../../img/print.png); }
+
+.inventario { background-image: url(../../img/inventario.png); }
+
+.ventas { background-image: url(../../img/prosupuesto.png); }
+
+.gastos { background-image: url(../../img/gastos.png); }
+
+.banesco { background-image: url(../../img/banesco.png); }
+
+.bod { background-image: url(../../img/bod.png); }
+
+.mercadolibre { background-image: url(../../img/mercadolibre.png); }
+
+.correo { background-image: url(../../img/correo.png); }
+
+.clientes { background-image: url(../../img/clientes.png); }
+
+.prosupuesto { background-image: url(../../img/ventas.png); }
+
+.edi_clientes { background-image: url(../../img/edi_clientes.png); }
+
+.compras { background-image: url(../../img/compras.png); }
+
+.provedores { background-image: url(../../img/edi_clientes.png); }
+
+.o_compra { background-image: url(../../img/o_compra.png); }
+
+.estadisticas { background-image: url(../../img/estadisticas.png); }
+
+.implementos-hover, .implementos-hover1
+{
+	background-size: contain;
+	width: 219px;
+	height: 165px;
+}
+
+.implementos-hover1:hover
+{
+	border-radius: 4px;
+	background-image: url(../../img/over.png);
+	background-size: contain;
+	width: 219px;
+	height: 165px;
+}
+
+.implementos-hover:hover
+{
+	border-radius: 4px;
+	background-image: url(../../img/img-hover.png);
+	background-size: contain;
+	width: 219px;
+	height: 165px;
+	-webkit-transform: rotatey(180deg);
+	-webkit-transition: -webkit-transform 1s ease-in-out 0.1s;
+	-moz-transform: rotatey(180deg);
+	-moz-transition: -moz-transform 1s ease-in-out 0.1s;
+	-o-transform: rotatey(180deg);
+	-o-transition: -o-transform 1s ease-in-out 0.1s;
+	-ms-transform: rotatey(180deg);
+	-ms-transition: -ms-transform 1s ease-in-out 0.1s;
+}
+
+/*============================================FIN CATALOGO=====================================*/
+
+
+
+.cargando
+{
+	position: fixed;
+	top: 20px;
+	left: 45%;
+	width: 140px;
+	height: 50px;
+	background-image: url(../../img/cargando.png);
+	background-color: rgb(238,218,172);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	z-index: 50;
+}
+
+.produc, .in-produc, .img-produc
+{
+	margin: 5px;
+	float: left;
+}
+
+.produc
+{
+	display: block;
+	width: 300px;
+	height: 200px;
+	border-radius: 3px;
+	box-shadow: 1px 1px 7px #CCC;
+}
+
+.img-produc
+{
+	width: 120px;
+	height: 140px;
+}
+
+.in-produc
+{
+	width: 160px;
+	height: 165px;
+	text-align: right;
+}
+
+.f-tec
+{
+	height: 15px;
+	width: 50px;
+	margin: 2px;
+	border: 1px solid rgba(0,0,0,1);
+	float: right;
+	border-radius: 3px;
+	background: url(../../img/button-tail.gif) 0 0 repeat-x #fb4400;
+	cursor: pointer;
+	text-decoration: none;
+	color: rgba(0,0,0,1);
+}
+
+.f-tec:hover
+{
+	background: #fb4400;
+	color: #fff;
+	text-decoration: underline;
+}
+
+/*==========================================FIN PROTECCION PARA LA CABEZA=========================*/
+  /*======================================================tablas============================*/
+ 
+
+@media all {
+
+table tr th { text-align: left; }
+
+.tablas, table tr td { font-size: 12px; }
+}
+
+@media screen {
+
+.htabla { display: none; }
+}
+
+@media print {
+
+.tabla { height: 1240px; }
+
+.stabla { display: none; }
+}
+
+/**-------------------------------------------editar y borrar--------------------------*/
+
+
+.edit, .elimina, .new, .cam, .buscar1, .entr, .dolar
+{
+	width: 20px;
+	height: 18px;
+	float: right;
+	margin: 1px;
+}
+
+.dolar { background: url(../../img/pag.png) no-repeat; }
+
+.dolar:hover { background: url(../../img/pag_hover.png) no-repeat; }
+
+.entr { background: url(../../img/entr.png) no-repeat; }
+
+.entr:hover { background: url(../../img/entr_hover.png) no-repeat; }
+
+.buscar1 { background: url(../../img/buscar.png) no-repeat; }
+
+.buscar1:hover { background: url(../../img/buscar_hover.png) no-repeat; }
+
+.edit { background: url(../../img/edit.png) no-repeat; }
+
+.edit:hover { background: url(../../img/edit_hover.png) no-repeat; }
+
+.elimina { background: url(../../img/elimina.png) no-repeat; }
+
+.elimina:hover { background: url(../../img/elimina_hover.png) no-repeat; }
+
+.new { background: url(../../img/new_hover.png) no-repeat; }
+
+.new:hover { background: url(../../img/new.png) no-repeat; }
+
+.printb, .printb, .new2, .buscar, .calendar, .save, .desechar, .pdf, .atras, .b_catalogo, .conf
+{
+	width: 30px;
+	height: 22px;
+	float: right;
+	margin: 5px;
+}
+
+.conf { background: url(../../img/conf.png) no-repeat; }
+
+.conf:hover { background: url(../../img/conf_hover.png) no-repeat; }
+
+.b_catalogo { background: url(../../img/b_catalogo.png) no-repeat; }
+
+.b_catalogo:hover { background: url(../../img/b_catalogo_hover.png) no-repeat; }
+
+.atras { background: url(../../img/atras.png) no-repeat; }
+
+.atras:hover { background: url(../../img/atras_hover.png) no-repeat; }
+
+.pdf { background: url(../../img/pdf.png) no-repeat; }
+
+.pdf:hover { background: url(../../img/pdf_hover.png) no-repeat; }
+
+.save { background: url(../../img/save.png) no-repeat; }
+
+.save:hover { background: url(../../img/save_hover.png) no-repeat; }
+
+.desechar { background: url(../../img/desechar.png) no-repeat; }
+
+.desechar:hover { background: url(../../img/desechar_hover.png) no-repeat; }
+
+.calendar { background: url(../../img/calendar.png) no-repeat; }
+
+.calendar:hover { background: url(../../img/calendar_hover.png) no-repeat; }
+
+.buscar { background: url(../../img/search_hover.gif) no-repeat; }
+
+.buscar:hover { background: url(../../img/search.gif) no-repeat; }
+
+.new2 { background: url(../../img/new2.png) no-repeat; }
+
+.new2:hover { background: url(../../img/new2_hover.png) no-repeat; }
+
+.cam { background: url(../../img/cam.png) no-repeat; }
+
+.cam:hover { background: url(../../img/cam_hover.png) no-repeat; }
+
+.printb { background: url(../../img/print_b.png) no-repeat; }
+
+.printb:hover { background: url(../../img/print_b_hover.png) no-repeat; }
+
+.conten_ico
+{
+	height: 25px;
+	min-width: 950;
+	display: block;
+}
+
+/*-----------------------------end-----------------------------------------------------------------------*/
+/***----------------------------------------------provedores------------------------------------------------*/
+
+
+
+
+.divprovedores
+{
+	float: left;
+	width: 300px;
+	display: block;
+	height: 200px;
+	border: 1px solid #000000;
+	margin: 4px;
+}
+
+ul li { list-style: none }
+
+@media print {
+
+.divprovedores
+{
+	float: left;
+	width: 350px;
+	display: block;
+	border: 1px solid #000000;
+	margin: 4px;
+}
+
+ul li { list-style: none }
+}
+
+.ct_title, table > thead > tr, .col_title
+{
+	background-image: -webkit-linear-gradient(270deg, rgba(255,255,255,1.00) 0%, rgba(151,145,145,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg, rgba(255,255,255,1.00) 0%, rgba(151,145,145,1.00) 100%);
+	background-image: -o-linear-gradient(270deg, rgba(255,255,255,1.00) 0%, rgba(151,145,145,1.00) 100%);
+	background-image: linear-gradient(180deg, rgba(255,255,255,1.00) 0%, rgba(151,145,145,1.00) 100%);
+	height: 22px;
+	background-repeat: no-repeat;
+	font-size: 12px;
+}
+
+.row_act
+{
+	height: 17px;
+	background-color: rgba(231,228,228,1.00);
+}
+
+table .col_hov { height: 24px; }
+
+table .col_hov:hover, .col_select
+{
+	background-image: -webkit-linear-gradient(270deg, rgba(255,255,255,0.32) 0%, rgba(255,194,194,0.48) 42.49%, rgba(255,115,115,0.69) 74.09%, rgba(255,66,66,0.82) 88.08%, rgba(255,0,0,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg, rgba(255,255,255,0.32) 0%, rgba(255,194,194,0.48) 42.49%, rgba(255,115,115,0.69) 74.09%, rgba(255,66,66,0.82) 88.08%, rgba(255,0,0,1.00) 100%);
+	background-image: -o-linear-gradient(270deg, rgba(255,255,255,0.32) 0%, rgba(255,194,194,0.48) 42.49%, rgba(255,115,115,0.69) 74.09%, rgba(255,66,66,0.82) 88.08%, rgba(255,0,0,1.00) 100%);
+	background-image: linear-gradient(180deg, rgba(255,255,255,0.32) 0%, rgba(255,194,194,0.48) 42.49%, rgba(255,115,115,0.69) 74.09%, rgba(255,66,66,0.82) 88.08%, rgba(255,0,0,1.00) 100%);
+}
+
+.input_search
+{
+	width: 127px;
+	height: 25px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+	text-transform: uppercase;
+}
+
+.telef
+{
+	width: 260px;
+	height: 23px;
+	font-size: 14px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+}
+
+.banc
+{
+	width: 261px;
+	height: 37px;
+	font-size: 14px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+}
+
+.div_bancos, .div_telf
+{
+	width: 226px;
+	min-height: 30px;
+}
+
+.ui-dialog-titlebar
+{
+	background-image: -webkit-linear-gradient(97deg, rgba(197,197,197,1.00) 0%, rgba(247,247,247,1.00) 100%);
+	background-image: -moz-linear-gradient(97deg, rgba(197,197,197,1.00) 0%, rgba(247,247,247,1.00) 100%);
+	background-image: -o-linear-gradient(97deg, rgba(197,197,197,1.00) 0%, rgba(247,247,247,1.00) 100%);
+	background-image: linear-gradient(353deg, rgba(197,197,197,1.00) 0%, rgba(247,247,247,1.00) 100%);
+}
+
+#error_div
+{
+	width: 295;
+	min-height: 123px;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5px;
+	background-color: rgba(245,13,17,0.60);
+	background-attachment: fixed;
+	-webkit-box-shadow: inset 1px 1px 3px 1px rgba(0,0,0,0.60);
+	box-shadow: inset 1px 1px 3px 1px rgba(0,0,0,0.60);
+	padding-top: 7px;
+	padding-right: 7px;
+	padding-bottom: 7px;
+	padding-left: 7px;
+}
+
+.load_catalogo
+{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: -300px;
+	left: 342px;
+	color: #FFFFFF;
+	background-color: rgba(238,218,172,1.00);
+	border-radius: 15px;
+	background-image: url(../../img/cargando_catalogo.gif);
+	background-size: contain;
+}
+
+#barra_load_pdf
+{
+	width: 281px;
+	height: 12px;
+	position: absolute;
+	top: -300px;
+	left: 349px;
+	background-color: rgba(236,231,231,1.00);
+	border-radius: 18px;
+	border: 3px ridge rgba(248,235,236,1.00);
+}
+
+#barra_load_
+{
+	width: 0px;
+	height: 12px;
+	position: static;
+	margin-top: 1px;
+	border-radius: 5px;
+	background-image: -webkit-linear-gradient(264deg, rgba(255,1,1,1.00) 0%, rgba(255,170,170,1.00) 61.65%, rgba(255,172,172,1.00) 77.72%, rgba(255,255,255,1.00) 100%);
+	background-image: -moz-linear-gradient(264deg, rgba(255,1,1,1.00) 0%, rgba(255,170,170,1.00) 61.65%, rgba(255,172,172,1.00) 77.72%, rgba(255,255,255,1.00) 100%);
+	background-image: -o-linear-gradient(264deg, rgba(255,1,1,1.00) 0%, rgba(255,170,170,1.00) 61.65%, rgba(255,172,172,1.00) 77.72%, rgba(255,255,255,1.00) 100%);
+	background-image: linear-gradient(186deg, rgba(255,1,1,1.00) 0%, rgba(255,170,170,1.00) 61.65%, rgba(255,172,172,1.00) 77.72%, rgba(255,255,255,1.00) 100%);
+}
+
+.E
+{
+	background-image: -webkit-linear-gradient(270deg, rgba(255,255,255,0.00) 0%, rgba(185,179,255,1.00) 66.84%, rgba(53,170,255,1.00) 81.87%, rgba(0,52,255,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg, rgba(255,255,255,0.00) 0%, rgba(185,179,255,1.00) 66.84%, rgba(53,170,255,1.00) 81.87%, rgba(0,52,255,1.00) 100%);
+	background-image: -o-linear-gradient(270deg, rgba(255,255,255,0.00) 0%, rgba(185,179,255,1.00) 66.84%, rgba(53,170,255,1.00) 81.87%, rgba(0,52,255,1.00) 100%);
+	background-image: linear-gradient(180deg, rgba(255,255,255,0.00) 0%, rgba(185,179,255,1.00) 66.84%, rgba(53,170,255,1.00) 81.87%, rgba(0,52,255,1.00) 100%);
+}
+
+.P
+{
+	background-image: -webkit-linear-gradient(270deg, rgba(255,255,255,0.00) 0%, rgba(249,255,159,0.84) 100%);
+	background-image: -moz-linear-gradient(270deg, rgba(255,255,255,0.00) 0%, rgba(249,255,159,0.84) 100%);
+	background-image: -o-linear-gradient(270deg, rgba(255,255,255,0.00) 0%, rgba(249,255,159,0.84) 100%);
+	background-image: linear-gradient(180deg, rgba(255,255,255,0.00) 0%, rgba(249,255,159,0.84) 100%);
+}
+
+.C
+{
+	background-image: -webkit-linear-gradient(270deg, rgba(255,255,255,0.00) 0%, rgba(255,113,113,0.55) 16.58%, rgba(255,0,0,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg, rgba(255,255,255,0.00) 0%, rgba(255,113,113,0.55) 16.58%, rgba(255,0,0,1.00) 100%);
+	background-image: -o-linear-gradient(270deg, rgba(255,255,255,0.00) 0%, rgba(255,113,113,0.55) 16.58%, rgba(255,0,0,1.00) 100%);
+	background-image: linear-gradient(180deg, rgba(255,255,255,0.00) 0%, rgba(255,113,113,0.55) 16.58%, rgba(255,0,0,1.00) 100%);
+}
+
+.cancel { text-decoration: line-through; }
+
+#pag_pdf
+{
+	height: 18px;
+	padding-right: 0%;
+	padding-left: 39%;
+}
+
+#pag_pdf > a > div:active
+{
+	border-radius: 4px;
+	background-image: -webkit-linear-gradient(102deg, rgba(255,255,255,0.00) 0%, rgba(255,2,2,1.00) 100%);
+	background-image: -moz-linear-gradient(102deg, rgba(255,255,255,0.00) 0%, rgba(255,2,2,1.00) 100%);
+	background-image: -o-linear-gradient(102deg, rgba(255,255,255,0.00) 0%, rgba(255,2,2,1.00) 100%);
+	background-image: linear-gradient(348deg, rgba(255,255,255,0.00) 0%, rgba(255,2,2,1.00) 100%);
+	-webkit-box-shadow: inset 0px 1px 4px 0px;
+	box-shadow: inset 0px 1px 4px 0px;
+	border-collapse: collapse;
+}
+
+#pag_pdf > a > div
+{
+	border-radius: 4px;
+	background-image: -webkit-linear-gradient(91deg, rgba(255,255,255,0.00) 0%, rgba(255,0,0,1.00) 100%);
+	background-image: -moz-linear-gradient(91deg, rgba(255,255,255,0.00) 0%, rgba(255,0,0,1.00) 100%);
+	background-image: -o-linear-gradient(91deg, rgba(255,255,255,0.00) 0%, rgba(255,0,0,1.00) 100%);
+	background-image: linear-gradient(359deg, rgba(255,255,255,0.00) 0%, rgba(255,0,0,1.00) 100%);
+	-webkit-box-shadow: inset -4px -5px 2px -2px;
+	box-shadow: inset -4px -5px 2px -2px;
+	border-collapse: collapse;
+	width: 49px;
+	float: left;
+	margin: 2px;
+}
+
+#pag_pdf > a { color: rgba(0,0,0,1.00); }
+
+.head-border-baj
+{
+	height: 32px;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 100;
+	border-bottom-right-radius: 153px;
+	border-bottom-left-radius: 153px;
+}
+
+.col_hov > td:hover {
+	border-bottom: solid 1px rgba(148,148,148,1.00);
+}

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_LiveData_params" value="5" />
+	<infoitem key="UD_LiveData_param0" value="" />
+	<infoitem key="UD_LiveData_request_method" value="post" />
+	<infoitem key="UD_LiveData_param1" value="l_precios=true&amp;text=1001&amp;codi_clpr=B-" />
+	<infoitem key="UD_LiveData_param2" value="l_precios=true&amp;text=1001" />
+	<infoitem key="UD_LiveData_param3" value="u_medida=2" />
+	<infoitem key="UD_LiveData_param4" value="marca=2" />
+</info>
